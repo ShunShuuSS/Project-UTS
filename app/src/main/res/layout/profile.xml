@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingVertical="20dp"
+    android:columnCount="1">
+    app:cardCornerRadius="40dp"
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_playbutton"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp">
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:paddingVertical="5dp"
+            android:textColor="@color/black"
+            android:text="NIM        : 00000030111\nNama     : Steven Sanjaya\nKelas      : EL"/>
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:text="Referensi:"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <GridLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:columnCount="2">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:paddingLeft="15dp"
+            android:text="Youtube:"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="320dp"
+            android:layout_columnSpan="1"
+            android:text="https://www.youtube.com/channel/UCuLlfMF-VDtMOY3mOvrZghQ"
+            android:autoLink="web"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:paddingLeft="15dp"
+            android:text="Website:"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_columnSpan="1"
+            android:text="https://viblo.asia/p/building-a-music-player-part-one-aWj53p6YK6m
+                \nhttps://viblo.asia/p/building-a-music-player-part-2-Do754kJLlM6
+                \nhttps://viblo.asia/p/building-a-music-player-part-3-LzD5dJ3wZjY"
+            android:autoLink="web"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:paddingLeft="15dp"
+            android:text="Teman:"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="320dp"
+            android:layout_columnSpan="1"
+            android:text="Calvin\nAdo\nAxel\nLewi"
+            android:textColor="@color/black"/>
+    </GridLayout>
+
+
+</GridLayout>
